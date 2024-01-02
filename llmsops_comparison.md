@@ -1,6 +1,6 @@
 Based on the referenced sources, here is an updated comparison table with strengths (+), neutral aspects (=), and weaknesses (-) for MLflow, Kubeflow, Vertex AI, and general MLOps features:
 
-| Feature / Platform             | MLflow ( + / = / - ) | Kubeflow ( + / = / - ) | Vertex AI ( + / = / - ) | General MLOps Features ( + / = / - ) |
+| Feature / Platform             | MLflow | Kubeflow | Vertex AI | General MLOps Features |
 |--------------------------------|----------------------|------------------------|-------------------------|--------------------------------------|
 | **Primary Focus**              | + (Lifecycle mgmt.)  | + (Workflow on K8s)    | + (Unified AI platform) | = (Varies)                            |
 | **Scalability**                | = (Varies)           | + (Distributed ML)     | + (On GCP)              | = (Depends on tools)                 |
