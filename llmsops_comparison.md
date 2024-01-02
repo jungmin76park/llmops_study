@@ -1,20 +1,22 @@
-Based on the referenced sources, here is an updated comparison table with strengths (+), neutral aspects (=), and weaknesses (-) for MLflow, Kubeflow, Vertex AI, and general MLOps features:
+Certainly! Here's the table with marks removed from the column headers:
 
-| Feature / Platform             | MLflow | Kubeflow | Vertex AI | General MLOps Features |
-|--------------------------------|----------------------|------------------------|-------------------------|--------------------------------------|
-| **Primary Focus**              | + (Lifecycle mgmt.)  | + (Workflow on K8s)    | + (Unified AI platform) | = (Varies)                            |
-| **Scalability**                | = (Varies)           | + (Distributed ML)     | + (On GCP)              | = (Depends on tools)                 |
-| **Model Training & Deployment**| + (Supported)        | + (Focus on pipelines) | + (Streamlined on GCP)  | + (Integral part)                    |
-| **Experiment Tracking**        | + (Strong)           | - (Limited)            | = (Integrated w/ GCP)  | + (Key component)                    |
-| **Data Management**            | - (Depends on integrations) | + (End-to-end mgmt.) | + (GCP services)      | + (Essential)                        |
-| **Monitoring & Logging**       | - (Basic)            | - (Via integrations)   | + (In-depth on GCP)     | = (Varies by tool)                   |
-| **Automated Workflows**        | - (Limited)          | + (Automated workflows)| + (Pipelines on GCP)    | + (Common)                           |
-| **Security & Compliance**      | = (Basic; depends on deployment) | + (K8s-based) | + (GCP features)    | = (Depends on platform)              |
-| **User Interface**             | + (Intuitive)        | - (K8s-oriented)       | + (User-friendly on GCP)| = (Varies significantly)             |
-| **Integration with Other Tools**| + (Broad)           | + (K8s ecosystem)      | + (GCP services)        | + (Often integrates well)            |
-| **Customization & Extensibility**| + (Flexible)       | + (Highly customizable)| + (Custom containers)   | = (Varies)                           |
-| **Resource Management**        | - (Manual; depends on hosting) | + (Efficient in K8s) | + (Automated on GCP) | = (Key consideration)                |
-| **Model Versioning**           | + (In-built)         | - (Via integrations)   | + (Supported w/ GCP AI) | + (Commonly supported)               |
+| Feature / Platform             | General MLOps Features | MLflow | Kubeflow | Vertex AI |
+|--------------------------------|------------------------|--------|----------|-----------|
+| **Primary Focus**              | Varies                 | + (Lifecycle mgmt.)  | + (Workflow on K8s)    | + (Unified AI platform) |
+| **Scalability**                | Depends on tools       | = (Varies)           | + (Distributed ML)     | + (On GCP)              |
+| **Model Training & Deployment**| Integral part          | + (Supported)        | + (Focus on pipelines) | + (Streamlined on GCP)  |
+| **Experiment Tracking**        | Key component          | + (Strong)           | - (Limited)            | = (Integrated w/ GCP)  |
+| **Data Management**            | Essential              | - (Depends on integrations) | + (End-to-end mgmt.) | + (GCP services)      |
+| **Monitoring & Logging**       | Varies by tool         | - (Basic)            | - (Via integrations)   | + (In-depth on GCP)     |
+| **Automated Workflows**        | Common                 | - (Limited)          | + (Automated workflows)| + (Pipelines on GCP)    |
+| **Security & Compliance**      | Depends on platform    | = (Basic; depends on deployment) | + (K8s-based) | + (GCP features)    |
+| **User Interface**             | Varies significantly   | + (Intuitive)        | - (K8s-oriented)       | + (User-friendly on GCP)|
+| **Integration with Other Tools**| Often integrates well | + (Broad)           | + (K8s ecosystem)      | + (GCP services)        |
+| **Customization & Extensibility**| Varies              | + (Flexible)       | + (Highly customizable)| + (Custom containers)   |
+| **Resource Management**        | Key consideration      | - (Manual; depends on hosting) | + (Efficient in K8s) | + (Automated on GCP) |
+| **Model Versioning**           | Commonly supported     | + (In-built)         | - (Via integrations)   | + (Supported w/ GCP AI) |
+
+This table now accurately compares the features of General MLOps Features, MLflow, Kubeflow, and Vertex AI, highlighting their respective strengths, neutral aspects, and weaknesses for each feature.
 
 Sources:
 - MLflow: Known for its strong experiment tracking and model versioning capabilities, MLflow is a flexible platform that integrates well with various tools, though it has basic monitoring and logging features and limited automated workflows [[❞]](https://www.run.ai/guides/machine-learning-operations/mlflow) [[❞]](https://www.run.ai/guides/machine-learning-operations/mlflow) [[❞]](https://www.run.ai/guides/machine-learning-operations/mlflow) [[❞]](https://www.run.ai/guides/machine-learning-operations/mlflow) [[❞]](https://www.run.ai/guides/machine-learning-operations/mlflow).
